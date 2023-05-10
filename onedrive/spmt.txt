@@ -1,0 +1,81 @@
+SharePoint Migration Tool (SPMT)
+================================
+
+Migrate to SharePoint using PowerShell
+https://learn.microsoft.com/en-us/sharepointmigration/overview-spmt-ps-cmdlets
+
+Release Notes
+https://learn.microsoft.com/en-us/sharepointmigration/new-and-improved-features-in-the-sharepoint-migration-tool?source=recommendations
+
+
+Procedure:
+
+Install 'public preview'
+
+cd to module directory
+
+**********************
+PowerShell transcript start
+Start time: 20230510165045
+Username: DRACO\brian
+RunAs User: DRACO\brian
+Configuration Name:
+Machine: DRACO (Microsoft Windows NT 10.0.22621.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 24868
+PSVersion: 7.3.4
+PSEdition: Core
+GitCommitId: 7.3.4
+OS: Microsoft Windows 10.0.22621
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.10032.0, 6.0.0, 6.1.0, 6.2.0, 7.0.0, 7.1.0, 7.2.0, 7.3.4
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\brian\OneDrive\Documents\PowerShell_transcript.DRACO.3MpvXLii.20230510165045.txt
+PS C:\Users\brian> Import-Module -Name .\Documents\WindowsPowerShell\Modules\Microsoft.SharePoint.MigrationTool.PowerShell
+PS C:\Users\brian> Register-SPMTMigration -Force
+>> TerminatingError(Register-SPMTMigration): "ActiveX control '8856f961-340a-11d0-a96b-00c04fd705a2' cannot be instantiated because the current thread is not in a single-threaded apartment."
+
+Register-SPMTMigration: ActiveX control '8856f961-340a-11d0-a96b-00c04fd705a2' cannot be instantiated because the current thread is not in a single-threaded apartment.
+
+Register-SPMTMigration: ActiveX control '8856f961-340a-11d0-a96b-00c04fd705a2' cannot be instantiated because the current thread is not in a single-threaded apartment.
+PS C:\Users\brian> Register-SPMTMigration
+PS C:\Users\brian> add-spmtTask -FileShareSource C:\Users\brian\GitHub\hosts\ -TargetSiteUrl "https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk" -TargetList "Documents" -TargetListRelativePath "SPMT"
+PS C:\Users\brian> Get-SPMTMigration
+
+StatusOfTasks    : {4571481f-35ca-4a8c-9159-39d1ae9de972}
+Id               : 0f1b0c4d-d3f1-41ca-8854-f1630d6ea979
+ReportFolderPath : C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_0f1b0c4d\Report
+Settings         : Microsoft.SharePoint.MigrationTool.PowerShell.MigrationSetting
+Status           : Initiated
+
+
+PS C:\Users\brian> Start-SPMTMigration
+Task 4571481f-35ca-4a8c-9159-39d1ae9de972 did NOT pass the parameter validation, the error message is 'The target site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk does not exist'
+Migration finished, but some tasks failed! You can find the report and log at C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_0f1b0c4d.
+PS C:\Users\brian> add-spmtTask -FileShareSource C:\Users\brian\GitHub\hosts\ -TargetSiteUrl "https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/" -TargetList "Documents" -TargetListRelativePath "SPMT"
+>> TerminatingError(Add-SPMTTask): "Can NOT add task to a session which has already been started"
+
+Add-SPMTTask: Can NOT add task to a session which has already been started
+
+Add-SPMTTask: Can NOT add task to a session which has already been started
+PS C:\Users\brian> Stop-SPMTMigration
+Stopping an in-progress session will take some time, please wait patiently. If you want to stop the session by force, please close this window!
+PS C:\Users\brian> Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20230510165556
+**********************
+
+
+TODO:
+How to make an actal migration work?
+Can we just take the contents of the module directory
+
+----
+
+Opened support request from Admin Console ...
+
+
