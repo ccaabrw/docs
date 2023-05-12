@@ -79,3 +79,18 @@ Can we just take the contents of the module directory
 Opened support request from Admin Console ...
 requted callback
 
+====
+
+cd ~\Documents\WindowsPowerShell\Modules
+Import-Module -Name .\Microsoft.SharePoint.MigrationTool.PowerShell\
+
+Register-SPMTMigration -Force
+[select ccaabrw@ucl.ac.uk account]
+
+Add-SPMTTask -FileShareSource C:\Users\brian\GitHub\hosts\ -TargetSiteUrl "https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/" -TargetList "Documents" -TargetListRelativePath "SPMT"
+ 
+Start-SPMTMigration
+Task 17bcb128-99b6-43c2-bea5-ae4897395361 did NOT pass the parameter validation, the error message is 'The target site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist'
+Migration finished, but some tasks failed! You can find the report and log at C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_47052973.
+
+
