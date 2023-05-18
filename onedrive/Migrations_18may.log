@@ -1,0 +1,388 @@
+2023-05-18 16:01:40.0882|INFO|WF|18|*** Migration Tool Version: 4.1.125.3 *** 
+2023-05-18 16:01:40.0882|DEBUG|WF|18|Using workflow output path: C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_7ccf0307 
+2023-05-18 16:01:40.0969|DEBUG|WF|18|ThreadManager.CreateThread: Create new thread with type [Reporting]. CurrentObjectID=[3c8fa4ed-6d95-49e8-8427-7631871bdfce] ParentObjectID=[00000000-0000-0000-0000-000000000000] 
+2023-05-18 16:01:40.0969|DEBUG|WF|24|Thread Start:[Reporting] THREADMON ID=[1b7f], Active Threads of the same type: 1 Total Active Threads:1 
+2023-05-18 16:01:40.0969|DEBUG|WF|24|ThreadManager.CreateThread: New thread created. ThreadType=[Reporting], ParentThreadId=[18], ParentObjectID=[00000000-0000-0000-0000-000000000000], CurrentThreadId=[24], CurrentObjectID=[3c8fa4ed-6d95-49e8-8427-7631871bdfce] 
+2023-05-18 16:01:40.0969|DEBUG|WF|18|Failed to Get folders in RemoveFolders folders:C:\Users\brian\AppData\Roaming\Microsoft\MigrationToolStorage\ucl.ac.uk\WF_7ccf0307, searchPatern=Log, recursive=False 
+2023-05-18 16:01:40.0969|INFO|WF|18|No user mapping file specified. 
+2023-05-18 16:01:41.0123|INFO|WF|18|ValidationEnabled: True 
+2023-05-18 16:01:41.0123|INFO|WF|18|MaxUploadingThreadsCount: 50 
+2023-05-18 16:01:41.0123|INFO|WF|18|MultiRoundEnabled: False 
+2023-05-18 16:01:41.0123|INFO|WF|18|KeepMetaFile: True 
+2023-05-18 16:01:41.0123|INFO|WF|18|MaxFileSizeInByte: 268435456000 
+2023-05-18 16:01:41.0123|INFO|WF|18|MaxConcurrentTasksFS: 10 
+2023-05-18 16:01:41.0123|INFO|WF|18|MaxConcurrentTasksSP: 5 
+2023-05-18 16:01:41.0123|DEBUG|WF|18|ThreadManager.CreateThread: Create new thread with type [WorkflowDaemon]. CurrentObjectID=[7ccf0307-43f8-4450-acec-ee9a1316b45c] ParentObjectID=[00000000-0000-0000-0000-000000000000] 
+2023-05-18 16:01:41.0123|DEBUG|WF|29|Thread Start:[WorkflowDaemon] THREADMON ID=[bb09], Active Threads of the same type: 1 Total Active Threads:1 
+2023-05-18 16:01:41.0123|DEBUG|WF|29|ThreadManager.CreateThread: New thread created. ThreadType=[WorkflowDaemon], ParentThreadId=[18], ParentObjectID=[00000000-0000-0000-0000-000000000000], CurrentThreadId=[29], CurrentObjectID=[7ccf0307-43f8-4450-acec-ee9a1316b45c] 
+2023-05-18 16:01:41.0360|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:01:41.0360|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:01:41.0360|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:01:41.0360|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:01:41.9829|DEBUG|WF|29|7ccf0307|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:01:47.0017|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:01:47.0017|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:01:47.0017|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:01:47.0017|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:01:52.0996|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:01:52.0996|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:01:52.0996|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:01:52.0996|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:01:57.1898|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:01:57.1898|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:01:57.1898|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:01:57.1898|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:02.2695|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:02.2695|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:02.2695|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:02.2695|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:07.3543|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:07.3543|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:07.3543|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:07.3543|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:12.4396|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:12.4396|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:12.4396|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:12.4396|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:12.5153|DEBUG|WF|29|7ccf0307|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:02:17.5288|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:17.5288|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:17.5288|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:17.5288|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:22.6099|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:22.6099|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:22.6099|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:22.6099|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:27.6911|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:27.6911|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:27.6911|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:27.6911|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:32.7672|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:32.7672|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:32.7672|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:32.7672|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:37.8444|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:37.8444|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:37.8444|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:37.8444|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:40.2516|DEBUG|WF|24|3c8fa4ed|[ThreadHeartbeat] Reporting thread is running. 
+2023-05-18 16:02:42.9279|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:42.9279|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:42.9279|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:42.9279|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:42.9999|DEBUG|WF|29|7ccf0307|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:02:48.0049|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:48.0049|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:48.0049|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:48.0049|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:53.0921|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:53.0921|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:53.0921|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:53.0921|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:57.8499|ERROR|WF|RETRY|Try to load the web page Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:02:57.8499|DEBUG|WF|RETRY|Exception did not match retry types Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException 
+2023-05-18 16:02:57.8499|ERROR|WF|18|Web https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk does not returns 404 Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:02:58.1630|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:02:58.1630|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:02:58.1630|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:02:58.1630|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:02:58.4349|ERROR|WF|18|Csom call with TraceCorrelationId No TraceCorrelationId from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException: Credential Issue when doing SP Query
+ ---> Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADAuthenticationException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700
+Correlation ID: 7fd8b368-f588-4558-9962-2e943ad161cf
+Timestamp: 2023-05-18 15:02:58Z
+ ---> MSAL.Desktop.4.37.0.0.MsalUiRequiredException: 
+	ErrorCode: invalid_grant
+Microsoft.Identity.Client.MsalUiRequiredException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700
+Correlation ID: 7fd8b368-f588-4558-9962-2e943ad161cf
+Timestamp: 2023-05-18 15:02:58Z
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException(HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse[T](HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ExecuteRequestAsync[T](Uri endPoint, HttpMethod method, RequestContext requestContext, Boolean expectErrorsOn200OK, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.GetTokenAsync(Uri endPoint, RequestContext requestContext, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendTokenRequestAsync(IDictionary`2 additionalBodyParameters, String scopeOverride, String tokenEndpointOverride, CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.UsernamePasswordRequest.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.RequestBase.RunAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.ApiConfig.Executors.PublicClientExecutor.ExecuteAsync(AcquireTokenCommonParameters commonParameters, AcquireTokenByUsernamePasswordParameters usernamePasswordParameters, CancellationToken cancellationToken)
+	StatusCode: 400 
+	ResponseBody: {"error":"invalid_grant","error_description":"AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.\r\nTrace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700\r\nCorrelation ID: 7fd8b368-f588-4558-9962-2e943ad161cf\r\nTimestamp: 2023-05-18 15:02:58Z","error_codes":[50076],"timestamp":"2023-05-18 15:02:58Z","trace_id":"875113d1-2f14-4b3f-b347-d1a4b7943700","correlation_id":"7fd8b368-f588-4558-9962-2e943ad161cf","error_uri":"https://login.microsoftonline.com/error?code=50076","suberror":"basic_action"} 
+	Headers: Cache-Control: no-store, no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+client-request-id: 7fd8b368-f588-4558-9962-2e943ad161cf
+x-ms-request-id: 875113d1-2f14-4b3f-b347-d1a4b7943700
+x-ms-ests-server: 2.1.15357.5 - WEULR2 ProdSlices
+x-ms-clitelem: 1,50076,0,,
+X-XSS-Protection: 0
+Set-Cookie: fpc=ArNt1wy-jgBPqf8g4ndzABnixee8AwAAANM0-NsOAAAAnm9m5wEAAAAhNfjbDgAAAA; expires=Sat, 17-Jun-2023 15:02:58 GMT; path=/; secure; HttpOnly; SameSite=None, x-ms-gateway-slice=estsfd; path=/; secure; httponly
+Date: Thu, 18 May 2023 15:02:57 GMT
+
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADContext.AcquireAccessToken(String resourceURI, String username, SecureString password, Boolean isExternalProvidedURI)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPOnlineClientContext.<>c__DisplayClass2_0.<InitAuthorizationHeader>b__0(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext._executingWebRequestProxy(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.OnExecutingWebRequest(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.FireExecutingWebRequestEventInternal(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.GetWebRequestExecutor()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:02:58.4349|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException: Credential Issue when doing SP Query
+ ---> Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADAuthenticationException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700
+Correlation ID: 7fd8b368-f588-4558-9962-2e943ad161cf
+Timestamp: 2023-05-18 15:02:58Z
+ ---> MSAL.Desktop.4.37.0.0.MsalUiRequiredException: 
+	ErrorCode: invalid_grant
+Microsoft.Identity.Client.MsalUiRequiredException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700
+Correlation ID: 7fd8b368-f588-4558-9962-2e943ad161cf
+Timestamp: 2023-05-18 15:02:58Z
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException(HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse[T](HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ExecuteRequestAsync[T](Uri endPoint, HttpMethod method, RequestContext requestContext, Boolean expectErrorsOn200OK, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.GetTokenAsync(Uri endPoint, RequestContext requestContext, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendTokenRequestAsync(IDictionary`2 additionalBodyParameters, String scopeOverride, String tokenEndpointOverride, CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.UsernamePasswordRequest.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.RequestBase.RunAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.ApiConfig.Executors.PublicClientExecutor.ExecuteAsync(AcquireTokenCommonParameters commonParameters, AcquireTokenByUsernamePasswordParameters usernamePasswordParameters, CancellationToken cancellationToken)
+	StatusCode: 400 
+	ResponseBody: {"error":"invalid_grant","error_description":"AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.\r\nTrace ID: 875113d1-2f14-4b3f-b347-d1a4b7943700\r\nCorrelation ID: 7fd8b368-f588-4558-9962-2e943ad161cf\r\nTimestamp: 2023-05-18 15:02:58Z","error_codes":[50076],"timestamp":"2023-05-18 15:02:58Z","trace_id":"875113d1-2f14-4b3f-b347-d1a4b7943700","correlation_id":"7fd8b368-f588-4558-9962-2e943ad161cf","error_uri":"https://login.microsoftonline.com/error?code=50076","suberror":"basic_action"} 
+	Headers: Cache-Control: no-store, no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+client-request-id: 7fd8b368-f588-4558-9962-2e943ad161cf
+x-ms-request-id: 875113d1-2f14-4b3f-b347-d1a4b7943700
+x-ms-ests-server: 2.1.15357.5 - WEULR2 ProdSlices
+x-ms-clitelem: 1,50076,0,,
+X-XSS-Protection: 0
+Set-Cookie: fpc=ArNt1wy-jgBPqf8g4ndzABnixee8AwAAANM0-NsOAAAAnm9m5wEAAAAhNfjbDgAAAA; expires=Sat, 17-Jun-2023 15:02:58 GMT; path=/; secure; HttpOnly; SameSite=None, x-ms-gateway-slice=estsfd; path=/; secure; httponly
+Date: Thu, 18 May 2023 15:02:57 GMT
+
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADContext.AcquireAccessToken(String resourceURI, String username, SecureString password, Boolean isExternalProvidedURI)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPOnlineClientContext.<>c__DisplayClass2_0.<InitAuthorizationHeader>b__0(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext._executingWebRequestProxy(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.OnExecutingWebRequest(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.FireExecutingWebRequestEventInternal(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.GetWebRequestExecutor()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:02:58.4593|DEBUG|WF|18|Exception did not match retry types Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException 
+2023-05-18 16:02:59.2819|ERROR|WF|18|Failed set user as site admin for site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/. Ignore it. System.ArgumentNullException: Value cannot be null. (Parameter 'webFullUrl')
+   at Microsoft.SharePoint.Client.ClientRuntimeContext..ctor(String webFullUrl)
+   at Microsoft.SharePoint.Client.ClientContext..ctor(String webFullUrl)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext..ctor(String uriString, String userAgent, ITimeService timeService)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPOnlineClientContext..ctor(String uriString, UserContext userContext, String userAgent, ITimeService timeService)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.CreateClientContext(UserContext userContext, SPAuthentication spAuth, String siteUrl, MigLogger logger, String userAgent)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SharePointContext.CreateContext()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SharePointContext.CreateContext(String siteUri)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.SetUserSiteAdmin(ISharePointContext sharepointContext, String siteUrl, String userName, Boolean isSiteAdmin)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.TrySetUserAsSiteCollectionAdmin(String webUrl, UserContext userContext)
+2023-05-18 16:02:59.3886|ERROR|WF|RETRY|Try to load the web page Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:02:59.3886|DEBUG|WF|RETRY|Exception did not match retry types Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException 
+2023-05-18 16:02:59.3886|ERROR|WF|18|Web https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk does not returns 404 Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:02:59.9549|ERROR|WF|18|Csom call with TraceCorrelationId No TraceCorrelationId from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException: Credential Issue when doing SP Query
+ ---> Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADAuthenticationException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: c4493213-0013-4499-9b1b-ddfa61074600
+Correlation ID: 681c8890-2844-48c4-a898-dc0617a79ccd
+Timestamp: 2023-05-18 15:03:00Z
+ ---> MSAL.Desktop.4.37.0.0.MsalUiRequiredException: 
+	ErrorCode: invalid_grant
+Microsoft.Identity.Client.MsalUiRequiredException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: c4493213-0013-4499-9b1b-ddfa61074600
+Correlation ID: 681c8890-2844-48c4-a898-dc0617a79ccd
+Timestamp: 2023-05-18 15:03:00Z
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException(HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse[T](HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ExecuteRequestAsync[T](Uri endPoint, HttpMethod method, RequestContext requestContext, Boolean expectErrorsOn200OK, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.GetTokenAsync(Uri endPoint, RequestContext requestContext, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendTokenRequestAsync(IDictionary`2 additionalBodyParameters, String scopeOverride, String tokenEndpointOverride, CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.UsernamePasswordRequest.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.RequestBase.RunAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.ApiConfig.Executors.PublicClientExecutor.ExecuteAsync(AcquireTokenCommonParameters commonParameters, AcquireTokenByUsernamePasswordParameters usernamePasswordParameters, CancellationToken cancellationToken)
+	StatusCode: 400 
+	ResponseBody: {"error":"invalid_grant","error_description":"AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.\r\nTrace ID: c4493213-0013-4499-9b1b-ddfa61074600\r\nCorrelation ID: 681c8890-2844-48c4-a898-dc0617a79ccd\r\nTimestamp: 2023-05-18 15:03:00Z","error_codes":[50076],"timestamp":"2023-05-18 15:03:00Z","trace_id":"c4493213-0013-4499-9b1b-ddfa61074600","correlation_id":"681c8890-2844-48c4-a898-dc0617a79ccd","error_uri":"https://login.microsoftonline.com/error?code=50076","suberror":"basic_action"} 
+	Headers: Cache-Control: no-store, no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+client-request-id: 681c8890-2844-48c4-a898-dc0617a79ccd
+x-ms-request-id: c4493213-0013-4499-9b1b-ddfa61074600
+x-ms-ests-server: 2.1.15357.5 - NEULR1 ProdSlices
+x-ms-clitelem: 1,50076,0,,
+X-XSS-Protection: 0
+Set-Cookie: fpc=ArNt1wy-jgBPqf8g4ndzABnixee8BQAAANM0-NsOAAAAnm9m5wIAAAAhNfjbDgAAAA; expires=Sat, 17-Jun-2023 15:03:00 GMT; path=/; secure; HttpOnly; SameSite=None, x-ms-gateway-slice=estsfd; path=/; secure; httponly
+Date: Thu, 18 May 2023 15:02:59 GMT
+
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADContext.AcquireAccessToken(String resourceURI, String username, SecureString password, Boolean isExternalProvidedURI)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPOnlineClientContext.<>c__DisplayClass2_0.<InitAuthorizationHeader>b__0(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext._executingWebRequestProxy(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.OnExecutingWebRequest(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.FireExecutingWebRequestEventInternal(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.GetWebRequestExecutor()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:02:59.9750|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException: Credential Issue when doing SP Query
+ ---> Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADAuthenticationException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: c4493213-0013-4499-9b1b-ddfa61074600
+Correlation ID: 681c8890-2844-48c4-a898-dc0617a79ccd
+Timestamp: 2023-05-18 15:03:00Z
+ ---> MSAL.Desktop.4.37.0.0.MsalUiRequiredException: 
+	ErrorCode: invalid_grant
+Microsoft.Identity.Client.MsalUiRequiredException: AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.
+Trace ID: c4493213-0013-4499-9b1b-ddfa61074600
+Correlation ID: 681c8890-2844-48c4-a898-dc0617a79ccd
+Timestamp: 2023-05-18 15:03:00Z
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ThrowServerException(HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.CreateResponse[T](HttpResponse response, RequestContext requestContext)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.ExecuteRequestAsync[T](Uri endPoint, HttpMethod method, RequestContext requestContext, Boolean expectErrorsOn200OK, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.OAuth2Client.GetTokenAsync(Uri endPoint, RequestContext requestContext, Boolean addCommonHeaders)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendHttpAndClearTelemetryAsync(String tokenEndpoint, ICoreLogger logger)
+   at Microsoft.Identity.Client.OAuth2.TokenClient.SendTokenRequestAsync(IDictionary`2 additionalBodyParameters, String scopeOverride, String tokenEndpointOverride, CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.UsernamePasswordRequest.ExecuteAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.Internal.Requests.RequestBase.RunAsync(CancellationToken cancellationToken)
+   at Microsoft.Identity.Client.ApiConfig.Executors.PublicClientExecutor.ExecuteAsync(AcquireTokenCommonParameters commonParameters, AcquireTokenByUsernamePasswordParameters usernamePasswordParameters, CancellationToken cancellationToken)
+	StatusCode: 400 
+	ResponseBody: {"error":"invalid_grant","error_description":"AADSTS50076: Due to a configuration change made by your administrator, or because you moved to a new location, you must use multi-factor authentication to access '00000003-0000-0ff1-ce00-000000000000'.\r\nTrace ID: c4493213-0013-4499-9b1b-ddfa61074600\r\nCorrelation ID: 681c8890-2844-48c4-a898-dc0617a79ccd\r\nTimestamp: 2023-05-18 15:03:00Z","error_codes":[50076],"timestamp":"2023-05-18 15:03:00Z","trace_id":"c4493213-0013-4499-9b1b-ddfa61074600","correlation_id":"681c8890-2844-48c4-a898-dc0617a79ccd","error_uri":"https://login.microsoftonline.com/error?code=50076","suberror":"basic_action"} 
+	Headers: Cache-Control: no-store, no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+client-request-id: 681c8890-2844-48c4-a898-dc0617a79ccd
+x-ms-request-id: c4493213-0013-4499-9b1b-ddfa61074600
+x-ms-ests-server: 2.1.15357.5 - NEULR1 ProdSlices
+x-ms-clitelem: 1,50076,0,,
+X-XSS-Protection: 0
+Set-Cookie: fpc=ArNt1wy-jgBPqf8g4ndzABnixee8BQAAANM0-NsOAAAAnm9m5wIAAAAhNfjbDgAAAA; expires=Sat, 17-Jun-2023 15:03:00 GMT; path=/; secure; HttpOnly; SameSite=None, x-ms-gateway-slice=estsfd; path=/; secure; httponly
+Date: Thu, 18 May 2023 15:02:59 GMT
+
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.AADContext.AcquireAccessToken(String resourceURI, String username, SecureString password, Boolean isExternalProvidedURI)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPOnlineClientContext.<>c__DisplayClass2_0.<InitAuthorizationHeader>b__0(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext._executingWebRequestProxy(Object sender, WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.OnExecutingWebRequest(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.FireExecutingWebRequestEventInternal(WebRequestEventArgs args)
+   at Microsoft.SharePoint.Client.ClientContext.GetWebRequestExecutor()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:02:59.9867|DEBUG|WF|18|Exception did not match retry types Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPAuthenticationException 
+2023-05-18 16:02:59.9867|DEBUG|WF|18|Starting task: 00000000-0000-0000-0000-000000000000 from workflow. workflow status: Initiated; ScanOnly: False 
+2023-05-18 16:02:59.9867|DEBUG|WF|18|Incremental not enabled or workflow not finished - nothing to reset 
+2023-05-18 16:02:59.9867|DEBUG|WF|30|Stopping workflow 
+2023-05-18 16:02:59.9867|DEBUG|WF|30|StopTasks: Enter. Total 0 tasks to stop 
+2023-05-18 16:02:59.9867|DEBUG|WF|30|StopTasks: All tasks were notified to stop. Now waitting them to stop 
+2023-05-18 16:02:59.9965|DEBUG|WF|30|StopTasks: All tasks were stopped. Now start to close all the tasks. 
+2023-05-18 16:02:59.9965|DEBUG|WF|30|StopTasks: exit. 
+2023-05-18 16:03:03.2497|INFO|WF|29|7ccf0307|Workflow demon loop Finished. WorkDemonThread stop flag: True 
+2023-05-18 16:03:03.2497|INFO|WF|29|7ccf0307|Send workflow status for the last time 
+2023-05-18 16:03:03.2497|DEBUG|WF|29|7ccf0307|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:03:03.2497|DEBUG|WF|29|7ccf0307|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:03:03.2497|DEBUG|WF|29|7ccf0307|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:03:03.2497|DEBUG|WF|29|7ccf0307|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:03:03.3193|DEBUG|WF|29|7ccf0307|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:03:03.3193|DEBUG|WF|29|7ccf0307|Performance reason check: Packing_Speed=0.00, Uploading_Speed=0.00, SPOSpeed=0.00 
+2023-05-18 16:03:03.3193|DEBUG|WF|29|7ccf0307|Performance reason check: The performance is Packing_DiskWriting with speed 0.00 
+2023-05-18 16:03:03.3262|DEBUG|WF|29|7ccf0307|Performance Recommendation Advised: Improving the migration machine speed will be most beneficial 
+2023-05-18 16:03:03.3262|DEBUG|WF|29|7ccf0307|Workflow thread stopped. 
+2023-05-18 16:03:03.3262|DEBUG|WF|29|7ccf0307|Thread Close:[WorkflowDaemon] THREADMON ID=[bb09], Active Threads of the same type: 0 Total Active Threads:0 
+2023-05-18 16:03:03.3595|DEBUG|WF|30|Stopping logging and dispatching threads 
+2023-05-18 16:03:03.3595|DEBUG|WF|30|Calling MigLib.Dispose in Workflow.Stop 
+2023-05-18 16:03:03.3595|DEBUG|WF|30|Stopping workflow reporting 
+2023-05-18 16:03:03.3595|DEBUG|WF|30|Stopping reporting center 
+2023-05-18 16:03:03.3595|DEBUG|WF|30|All report centers gone - stopping reporting thread 
+2023-05-18 16:03:03.5634|DEBUG|WF|24|3c8fa4ed|Thread Close:[Reporting] THREADMON ID=[1b7f], Active Threads of the same type: 0 Total Active Threads:0 
