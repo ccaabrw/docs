@@ -1,0 +1,1239 @@
+2023-05-18 16:17:27.1635|INFO|WF|18|*** Migration Tool Version: 4.1.125.3 *** 
+2023-05-18 16:17:27.1635|DEBUG|WF|18|Using workflow output path: C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_bcdf37e6 
+2023-05-18 16:17:27.1723|DEBUG|WF|18|ThreadManager.CreateThread: Create new thread with type [Reporting]. CurrentObjectID=[d2c60a1e-2314-4977-81e7-50ca13b6681d] ParentObjectID=[00000000-0000-0000-0000-000000000000] 
+2023-05-18 16:17:27.1723|DEBUG|WF|25|Thread Start:[Reporting] THREADMON ID=[47fe], Active Threads of the same type: 1 Total Active Threads:1 
+2023-05-18 16:17:27.1723|DEBUG|WF|25|ThreadManager.CreateThread: New thread created. ThreadType=[Reporting], ParentThreadId=[18], ParentObjectID=[00000000-0000-0000-0000-000000000000], CurrentThreadId=[25], CurrentObjectID=[d2c60a1e-2314-4977-81e7-50ca13b6681d] 
+2023-05-18 16:17:27.1723|DEBUG|WF|18|Failed to Get folders in RemoveFolders folders:C:\Users\brian\AppData\Roaming\Microsoft\MigrationToolStorage\ucl.ac.uk\WF_bcdf37e6, searchPatern=Log, recursive=False 
+2023-05-18 16:17:27.1723|INFO|WF|18|No user mapping file specified. 
+2023-05-18 16:17:28.4887|INFO|WF|18|ValidationEnabled: True 
+2023-05-18 16:17:28.4887|INFO|WF|18|MaxUploadingThreadsCount: 50 
+2023-05-18 16:17:28.4887|INFO|WF|18|MultiRoundEnabled: False 
+2023-05-18 16:17:28.4887|INFO|WF|18|KeepMetaFile: True 
+2023-05-18 16:17:28.4887|INFO|WF|18|MaxFileSizeInByte: 268435456000 
+2023-05-18 16:17:28.4887|INFO|WF|18|MaxConcurrentTasksFS: 10 
+2023-05-18 16:17:28.4887|INFO|WF|18|MaxConcurrentTasksSP: 5 
+2023-05-18 16:17:28.4887|DEBUG|WF|18|ThreadManager.CreateThread: Create new thread with type [WorkflowDaemon]. CurrentObjectID=[bcdf37e6-871d-458c-a0ec-6c6dcdc44dc1] ParentObjectID=[00000000-0000-0000-0000-000000000000] 
+2023-05-18 16:17:28.4887|DEBUG|WF|30|Thread Start:[WorkflowDaemon] THREADMON ID=[3287], Active Threads of the same type: 1 Total Active Threads:1 
+2023-05-18 16:17:28.4887|DEBUG|WF|30|ThreadManager.CreateThread: New thread created. ThreadType=[WorkflowDaemon], ParentThreadId=[18], ParentObjectID=[00000000-0000-0000-0000-000000000000], CurrentThreadId=[30], CurrentObjectID=[bcdf37e6-871d-458c-a0ec-6c6dcdc44dc1] 
+2023-05-18 16:17:28.5031|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:28.5031|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:28.5031|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:28.5031|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:29.2322|DEBUG|WF|30|bcdf37e6|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:17:34.2531|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:34.2531|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:34.2531|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:34.2531|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:39.3398|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:39.3398|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:39.3398|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:39.3398|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:44.4300|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:44.4300|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:44.4300|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:44.4300|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:49.5062|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:49.5062|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:49.5062|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:49.5062|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:54.5826|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:54.5826|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:54.5826|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:54.5826|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:56.5220|ERROR|WF|RETRY|Try to load the web page Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:17:56.5220|DEBUG|WF|RETRY|Exception did not match retry types Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException 
+2023-05-18 16:17:56.5220|ERROR|WF|18|Web https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk does not returns 404 Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:17:56.7807|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:56.7807|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:56.8256|DEBUG|WF|18|Normal retry:[afbbf4e2], Retry Times[1] 
+2023-05-18 16:17:56.8862|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:56.8960|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:56.9316|DEBUG|WF|18|Normal retry:[afbbf4e2], Retry Times[2] 
+2023-05-18 16:17:57.0218|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:57.0316|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.0709|DEBUG|WF|18|Normal retry:[afbbf4e2], Retry Times[3] 
+2023-05-18 16:17:57.1627|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:57.1738|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.2093|DEBUG|WF|18|Normal retry:[afbbf4e2], Retry Times[4] 
+2023-05-18 16:17:57.3032|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.3159|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.3489|DEBUG|WF|18|Normal retry:[afbbf4e2], Retry Times[5] 
+2023-05-18 16:17:57.4354|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-703e-6000-a35b-6a6051e034fc from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:57.4505|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.4505|ERROR|WF|18|Normal retry failed Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.IsUserSiteAdmin_TriStatus(IMigSPClientContext context, String userName)
+2023-05-18 16:17:57.7070|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.7155|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.7513|DEBUG|WF|18|Normal retry:[dc7279e4], Retry Times[1] 
+2023-05-18 16:17:57.9489|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:57.9489|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:57.9998|DEBUG|WF|18|Normal retry:[dc7279e4], Retry Times[2] 
+2023-05-18 16:17:58.0895|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.0895|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.1403|DEBUG|WF|18|Normal retry:[dc7279e4], Retry Times[3] 
+2023-05-18 16:17:58.2244|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.2369|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.2799|DEBUG|WF|18|Normal retry:[dc7279e4], Retry Times[4] 
+2023-05-18 16:17:58.3708|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.3833|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.4184|DEBUG|WF|18|Normal retry:[dc7279e4], Retry Times[5] 
+2023-05-18 16:17:58.5110|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-b077-6000-8a1f-925cd6a718f5 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.5386|ERROR|WF|18|Cannot set user site admin with siteUrl:https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk, userName:ccaabrw@ucl.ac.uk and isSiteAdmin:True Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.5498|ERROR|WF|18|Normal retry failed Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass118_1.<SetUserSiteAdmin>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.6688|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.7031|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.7421|DEBUG|WF|18|Normal retry:[838d564b], Retry Times[1] 
+2023-05-18 16:17:58.8380|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:58.8623|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:58.9146|DEBUG|WF|18|Normal retry:[838d564b], Retry Times[2] 
+2023-05-18 16:17:59.0153|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.0280|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.0699|DEBUG|WF|18|Normal retry:[838d564b], Retry Times[3] 
+2023-05-18 16:17:59.1558|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.1558|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.2113|DEBUG|WF|18|Normal retry:[838d564b], Retry Times[4] 
+2023-05-18 16:17:59.2921|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.3048|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.3495|DEBUG|WF|18|Normal retry:[838d564b], Retry Times[5] 
+2023-05-18 16:17:59.4353|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-60b3-6000-a35b-6dd2abde31b4 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.4353|ERROR|WF|18|Could not get IsSiteAdmin property for user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.4566|ERROR|WF|18|Normal retry failed Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.MIGUtilities.<>c__DisplayClass117_0.<IsUserSiteAdmin_TriStatus>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.5724|ERROR|WF|RETRY|Try to load the web page Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:17:59.5724|DEBUG|WF|RETRY|Exception did not match retry types Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException 
+2023-05-18 16:17:59.5724|ERROR|WF|18|Web https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk does not returns 404 Microsoft.SharePoint.Migration.Common.Exceptions.WebCredentialException
+ ---> System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase.Create(WebException e)
+   at Microsoft.SharePoint.Migration.Common.Utilities.ConvertWebException(WebException e, LogWrapperAbstract logger)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.Common.Net.HttpWebRequestProxy.GetResponse()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass31_0.<Is404Page>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.<>c__DisplayClass13_0.<RunWithRetry>b__0()
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry[T](Func`1 logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, Int64 timeOutSeconds, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.Migration.Common.Utilities.RunWithRetry(Action logicToRetry, Boolean isSPORequest, LogWrapperAbstract logger, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.Is404Page(String pageUrl)
+2023-05-18 16:17:59.6591|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:17:59.6591|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:17:59.6591|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:17:59.6591|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:17:59.7034|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.7158|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.7498|DEBUG|WF|30|bcdf37e6|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:17:59.7498|DEBUG|WF|18|Normal retry:[2a46d2f3], Retry Times[1] 
+2023-05-18 16:17:59.8412|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:17:59.8559|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.8925|DEBUG|WF|18|Normal retry:[2a46d2f3], Retry Times[2] 
+2023-05-18 16:17:59.9716|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:17:59.9821|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.0152|DEBUG|WF|18|Normal retry:[2a46d2f3], Retry Times[3] 
+2023-05-18 16:18:00.1021|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:00.1127|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.1552|DEBUG|WF|18|Normal retry:[2a46d2f3], Retry Times[4] 
+2023-05-18 16:18:00.2446|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:00.2544|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.2954|DEBUG|WF|18|Normal retry:[2a46d2f3], Retry Times[5] 
+2023-05-18 16:18:00.3891|ERROR|WF|18|Csom call with TraceCorrelationId d419b4a0-80f2-6000-84cb-6c8bcbf7beca from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.3891|ERROR|WF|18|site https://liveuclac-my.sharepoint.com/personal/ccaabrw_ucl_ac_uk/ does not exist  Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.4112|ERROR|WF|18|Normal retry failed Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass28_1.<CanAccessWeb>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.5095|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:00.5198|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.5582|DEBUG|WF|18|Normal retry:[c42f46c5], Retry Times[1] 
+2023-05-18 16:18:00.6522|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.6606|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.6980|DEBUG|WF|18|Normal retry:[c42f46c5], Retry Times[2] 
+2023-05-18 16:18:00.7902|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.7994|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.8359|DEBUG|WF|18|Normal retry:[c42f46c5], Retry Times[3] 
+2023-05-18 16:18:00.9209|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:00.9209|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:00.9746|DEBUG|WF|18|Normal retry:[c42f46c5], Retry Times[4] 
+2023-05-18 16:18:01.0609|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:01.0609|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:01.1134|DEBUG|WF|18|Normal retry:[c42f46c5], Retry Times[5] 
+2023-05-18 16:18:01.2021|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-e027-6000-8a1f-9ac3fddd1087 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:01.2155|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:01.2155|ERROR|WF|18|Normal retry failed Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+2023-05-18 16:18:01.2388|ERROR|WF|18|Could not ensure user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass20_0.<EnsureUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.EnsureUser(IMigSPClientContext context, String userName)
+2023-05-18 16:18:01.3511|ERROR|WF|18|Csom call with TraceCorrelationId d519b4a0-205c-6000-af16-33a19ed2be20 from SPO Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+2023-05-18 16:18:01.3630|ERROR|WF|18|Could not get the site collection features using user ccaabrw@ucl.ac.uk Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass22_0.<HasAccesstoUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.HasAccesstoUser(IMigSPClientContext context, String userName)
+2023-05-18 16:18:01.3721|DEBUG|WF|18|Exception did not match retry types Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException 
+2023-05-18 16:18:01.3721|ERROR|WF|18|User ccaabrw@ucl.ac.uk not is site admin Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPWebException: Web Issue when doing SP Query
+ ---> Microsoft.SharePoint.Migration.Common.Exceptions.WebExceptionBase
+ ---> System.Net.WebException: The remote server returned an error: (400) Bad Request.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Microsoft.SharePoint.Client.SPWebRequestExecutor.Execute()
+   at Microsoft.SharePoint.Client.ClientContext.GetFormDigestInfoPrivate()
+   at Microsoft.SharePoint.Client.ClientContext.EnsureFormDigest()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   --- End of inner exception stack trace ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.WrapExceptions(Action logicToRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.ExecuteQuery(String callerMemberName, String callerFilePath)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.<>c__DisplayClass22_0.<HasAccesstoUser>b__0()
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+--- End of stack trace from previous location ---
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, Func`2 exceptionHandler, String errorMessage, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, Int32 retryIntervalMiliSeconds, String errorMessage, Type[] retryExceptionTypes, Type[] nonRetryExceptionTypes, Boolean resetContextIfRetry)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.MigSPClientContext.RunWithRetry(Action logicToRetry, Int32 retryCount, String errorMessage, Type[] retryExceptionTypes)
+   at Microsoft.SharePoint.MigrationTool.MigrationLib.SharePoint.SiteAuthChecker.HasAccesstoUser(IMigSPClientContext context, String userName)
+2023-05-18 16:18:01.3885|DEBUG|WF|18|Starting task: 00000000-0000-0000-0000-000000000000 from workflow. workflow status: Initiated; ScanOnly: False 
+2023-05-18 16:18:01.3885|DEBUG|WF|18|Incremental not enabled or workflow not finished - nothing to reset 
+2023-05-18 16:18:01.3885|DEBUG|WF|31|Stopping workflow 
+2023-05-18 16:18:01.3885|DEBUG|WF|31|StopTasks: Enter. Total 0 tasks to stop 
+2023-05-18 16:18:01.3885|DEBUG|WF|31|StopTasks: All tasks were notified to stop. Now waitting them to stop 
+2023-05-18 16:18:01.3885|DEBUG|WF|31|StopTasks: All tasks were stopped. Now start to close all the tasks. 
+2023-05-18 16:18:01.3885|DEBUG|WF|31|StopTasks: exit. 
+2023-05-18 16:18:04.7630|INFO|WF|30|bcdf37e6|Workflow demon loop Finished. WorkDemonThread stop flag: True 
+2023-05-18 16:18:04.7630|INFO|WF|30|bcdf37e6|Send workflow status for the last time 
+2023-05-18 16:18:04.7630|DEBUG|WF|30|bcdf37e6|GettimeLength type=PACKING, timelineLen=0 
+2023-05-18 16:18:04.7630|DEBUG|WF|30|bcdf37e6|GettimeLength type=UPLOADING, timelineLen=0 
+2023-05-18 16:18:04.7630|DEBUG|WF|30|bcdf37e6|GettimeLength type=PROCESSING, timelineLen=0 
+2023-05-18 16:18:04.7630|DEBUG|WF|30|bcdf37e6|NEW_PERFMEASUREMENT_N: packingTimespan=0, uploadingTimespan=0, processingTimespan=0, packedBytes=0, uploadedBytes=0, migratedBytes=0 
+2023-05-18 16:18:04.8477|DEBUG|WF|30|bcdf37e6|Workflow Status Event: NumOfTasks=0 NumOfActiveTasksFS=0 NumOfActiveTasksSP=0 NumOfFinishedTasks=0 NumQueuedTasksFS=0 NumQueuedTasksSP=0 TasksQuotaFS=20 TasksQuotaSP=20 PackedPacks=0 UploadedPacks=0 SubmittedPacks=0 MigratedPacks=0 CompletedPacks=0 jobsInProcessing=0 UploadingParallalism=0 CurrentPackedPackages=0 CurrentUploadedPacks=0 speed_Packing=0.00 speed_Uploading=0.00 speed_SPOProcessing=0.00 speed_Migration=0.00 PacktimePercent_MetaReading=0.00 PacktimePercent_FileReading=0.00 PacktimePercent_DiskWriting=0.00 
+2023-05-18 16:18:04.8477|DEBUG|WF|30|bcdf37e6|Performance reason check: Packing_Speed=0.00, Uploading_Speed=0.00, SPOSpeed=0.00 
+2023-05-18 16:18:04.8477|DEBUG|WF|30|bcdf37e6|Performance reason check: The performance is Packing_DiskWriting with speed 0.00 
+2023-05-18 16:18:04.8577|DEBUG|WF|30|bcdf37e6|Performance Recommendation Advised: Improving the migration machine speed will be most beneficial 
+2023-05-18 16:18:04.8577|DEBUG|WF|30|bcdf37e6|Workflow thread stopped. 
+2023-05-18 16:18:04.8577|DEBUG|WF|30|bcdf37e6|Thread Close:[WorkflowDaemon] THREADMON ID=[3287], Active Threads of the same type: 0 Total Active Threads:0 
+2023-05-18 16:18:04.8738|DEBUG|WF|31|Stopping logging and dispatching threads 
+2023-05-18 16:18:04.8738|DEBUG|WF|31|Calling MigLib.Dispose in Workflow.Stop 
+2023-05-18 16:18:04.8738|DEBUG|WF|31|Stopping workflow reporting 
+2023-05-18 16:18:04.8738|DEBUG|WF|31|Stopping reporting center 
+2023-05-18 16:18:04.8738|DEBUG|WF|31|Waiting for all reports to be written 
+2023-05-18 16:18:05.3816|DEBUG|WF|31|All report centers gone - stopping reporting thread 
+2023-05-18 16:18:05.4435|DEBUG|WF|25|d2c60a1e|Thread Close:[Reporting] THREADMON ID=[47fe], Active Threads of the same type: 0 Total Active Threads:0 
