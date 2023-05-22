@@ -1,0 +1,10 @@
+To turn off the new bing bar:
+
+HKCU:\Software\Policies\Mcrosoft\Edge\
+HubSidebarEnabled
+REG_DWORD
+0x0
+
+todo:
+Open policy in Edge
+Link to Microsoft description of setting
