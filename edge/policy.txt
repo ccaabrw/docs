@@ -5,6 +5,13 @@ HubSidebarEnabled
 REG_DWORD
 0x0
 
+Description of settings:
+https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies#hubssidebarenabled
+https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-sidebar
+
+Edge policies:
+
+
 todo:
 Open policy in Edge
 Link to Microsoft description of setting
