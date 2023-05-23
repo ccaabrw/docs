@@ -1,6 +1,9 @@
-To turn off the new bing bar:
+To turn off the new Bing sidebar in Edge:
 
+Add key:
 HKCU:\Software\Policies\Mcrosoft\Edge\
+
+Add value:
 HubSidebarEnabled
 REG_DWORD
 0x0
@@ -10,8 +13,7 @@ https://learn.microsoft.com/en-us/deployedge/microsoft-edge-policies#hubssidebar
 https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-sidebar
 
 Edge policies:
-
+edge://policy/
 
 todo:
-Open policy in Edge
-Link to Microsoft description of setting
+Screenshots
