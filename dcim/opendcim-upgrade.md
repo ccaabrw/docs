@@ -16,6 +16,7 @@ Add:
 profile_dcim::server8::opendcim_version = 'openDCIM-23.01'
 
 Where is 'installer_files' in puppet?
+Test extract to another folder
 
 Puppet dry run to install package
 
