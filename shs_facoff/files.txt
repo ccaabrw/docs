@@ -1,0 +1,5 @@
+Seems to work:
+ 
+ robocopy 'S:\SHSFACOFF_Share\Faculty Office Administration\Committees & Boards\JFLC\2223\' 'S:\SHSFACOFF_Share_Confidential\Faculty Office Administration\Committees & Boards\JFLC\2223\' /e /v /move /is /im /xo /xn /l /xd "Agenda and Paper Planning"
+
+ 
