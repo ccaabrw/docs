@@ -1,0 +1,22 @@
+ebms-admin02
+ebms-admin03
+ebms-admin04
+ebms-admin05
+
+Server 2022
+4 CPU
+6GB RAM
+
+
+
+Adminstrators group includes:
+AD\ag-isdvi-388-ebms-prod-osaccess
+-> rg-ebms-admin
+   -> uczblos
+   -> ccaabrw
+   uczbpro
+
+Disks:
+C: 50G
+D: 10G
+
