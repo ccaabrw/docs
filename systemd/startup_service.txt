@@ -1,0 +1,47 @@
+Example to create a custom service to run in multi-user target
+In systemd a target is equivalent to a runlevel is sysvinit
+
+----
+
+Instructions from:
+https://www.linode.com/docs/guides/start-service-at-boot/
+
+----
+
+# vi systemd/test-service.sh
+
+DATE=`date '+%Y-%m-%d %H:%M:%S'`
+echo "Example service started at ${DATE}" | systemd-cat -p info
+
+while :
+do
+echo "Looping...";
+sleep 30;
+done
+
+# vi /lib/systemd/system/testservice.service
+
+[Unit]
+Description=Example systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/systemd/test-service.sh
+
+[Install]
+WantedBy=multi-user.target
+
+# systemctl enable testservice
+Creates symlinks under /etc/systemd
+
+# systemctl status testservice
+
+# systemctl disable testservice
+Removes the symlinks
+
+----
+
+This is simple and works!
+
+What other options do we want for restartable services?
+Do we still need to nohup the process (probably not)
