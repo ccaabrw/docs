@@ -45,3 +45,8 @@ This is simple and works!
 
 What other options do we want for restartable services?
 Do we still need to nohup the process (probably not)
+
+====
+
+Another article about replacing rc.local:
+https://www.redhat.com/sysadmin/replacing-rclocal-systemd
