@@ -1,0 +1,3 @@
+Good worked example showing implementation of simple daemon:
+https://access.redhat.com/solutions/912263
+
