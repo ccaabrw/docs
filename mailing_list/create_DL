@@ -1,0 +1,37 @@
+Create a new mailing list
+=========================
+
+New DL using LATs
+
+Browser profile: isdccaabrw
+https://o365-lats01.ad.ucl.ac.uk/RDWeb
+Login: ad\isdccaabrw
+
+Start RDP connection
+Login: ad\isdccaabrw
+
+This opens remote PowerShell window
+MFA sign in: isdccaabrw@ucl.ac.uk
+
+> m      menu
+> 7      Create a Distirbution List
+
+... create your list ...
+
+
+Find postmaster ticket in RF
+Update aliases
+
+
+Connect-ExchangeOnline
+Login: ccaabrw@ucl.ac.uk
+
+Get-Recipient new-list-alias@ucl.ac.uk
+Get-DistributionGroupMember isd.newlistalias                    # Empty
+Add-DistributionGroupMember isd.newlistalias -Member ccaaxyz    # No need for bypass option
+
+
+Wait for overnight processes to propagate
+
+Confirm aliases on DL object
+Test address avalidity at mail relay
