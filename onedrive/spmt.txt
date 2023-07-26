@@ -94,3 +94,38 @@ Task 17bcb128-99b6-43c2-bea5-ae4897395361 did NOT pass the parameter validation,
 Migration finished, but some tasks failed! You can find the report and log at C:\Users\brian\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_47052973.
 
 
+==========
+
+On fucl-odmig01
+Tools finally work as expected
+
+Use Global Admin account
+
+$adminuser = "365-0059@ucl.ac.uk"
+$adminpass = "010000c09621fda6eef8d333...
+$admincred = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $adminuser, $(convertto-securestring $adminpass)
+
+Connect-SPOService -Url https://liveuclac-admin.sharepoint.com -Credential $admincred
+
+Register-SPMTMigration -SPOCredential $admincred -force
+$user = get-aduser ccaegor
+$source = "\\ad.ucl.ac.uk\homer\ccaegor"
+$targlist = "Documents"
+$targpath = "UCLHome"
+$site = "https://liveuclac-my.sharepoint.com/personal/$($user.samaccountname)_ucl_ac_uk"
+
+Add-SPMTTask -FileShareSource $source -TargetSiteUrl $site -TargetList $targlist -TargetListRelativePath $targpath
+Start-SPMTMigration -ParametersValidationOnly
+Start-SPMTMigration
+Unregister-SPMTMigration
+
+Register-SPMTMigration -SPOCredential $admincred -force -ScanOnly $true
+Add-SPMTTask -FileShareSource $source -TargetSiteUrl $site -TargetList $targlist -TargetListRelativePath $targpath
+Show-SPMTMigration
+Start-SPMTMigration
+
+import-csv C:\Users\isdccaabrw\AppData\Roaming\Microsoft\MigrationTool\ucl.ac.uk\WF_c0f67f20\Report\SummaryReport.csv
+Unregister-SPMTMigration
+
+And repeat ...
+
