@@ -1,0 +1,15 @@
+Red Hat Satellite
+Upgrade to 6.13
+
+RH guidance:
+https://access.redhat.com/solutions/2146501
+
+https://access.redhat.com/documentation/en-us/red_hat_satellite/6.12/html/upgrading_and_updating_red_hat_satellite/upgrading_overview
+https://access.redhat.com/documentation/en-us/red_hat_satellite/6.12/html-single/release_notes/index#
+
+https://access.redhat.com/documentation/en-us/red_hat_satellite/6.13/html/upgrading_and_updating_red_hat_satellite/upgrading_overview
+https://access.redhat.com/documentation/en-us/red_hat_satellite/6.13/html-single/release_notes/index#
+
+"Satellite Upgrade Helper"
+
+Case opened with RH for advice
