@@ -13,3 +13,12 @@ https://access.redhat.com/documentation/en-us/red_hat_satellite/6.13/html-single
 "Satellite Upgrade Helper"
 
 Case opened with RH for advice
+
+----
+
+Require to upgrade to RHEL8 before Satellite 6.12
+
+In place upgrade:
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/upgrading_from_rhel_7_to_rhel_8/assembly_preparing-for-the-upgrade_upgrading-from-rhel-7-to-rhel-8
+
+
