@@ -1,0 +1,90 @@
+Problems with Draco (Dell after motherboard swap)
+
+https://learn.microsoft.com/en-us/azure/active-directory/devices/troubleshoot-hybrid-join-windows-current
+
+
+PS> dsregcmd /status
+
+
++----------------------------------------------------------------------+
+| Device State                                                         |
++----------------------------------------------------------------------+
+
+             AzureAdJoined : NO
+          EnterpriseJoined : NO
+              DomainJoined : NO
+           Virtual Desktop : NOT SET
+               Device Name : Draco
+
++----------------------------------------------------------------------+
+| User State                                                           |
++----------------------------------------------------------------------+
+
+                    NgcSet : NO
+           WorkplaceJoined : YES
+          WorkAccountCount : 1
+             WamDefaultSet : YES
+       WamDefaultAuthority : consumers
+              WamDefaultId : https://login.microsoft.com
+            WamDefaultGUID : {D7F9888F-E3FC-49B0-9EA6-A85B5F392A4F} (MicrosoftAccount)
+
++----------------------------------------------------------------------+
+| SSO State                                                            |
++----------------------------------------------------------------------+
+
+                AzureAdPrt : NO
+       AzureAdPrtAuthority : NO
+             EnterprisePrt : NO
+    EnterprisePrtAuthority : NO
+
++----------------------------------------------------------------------+
+| Work Account 1                                                       |
++----------------------------------------------------------------------+
+
+         WorkplaceDeviceId : 2d846703-eccb-450b-8a5c-5a92f8a770ec
+       WorkplaceThumbprint : 03BB89A32E85D76F04413FC307BA90A72BA49E96
+ DeviceCertificateValidity : [ 2022-10-15 11:50:41.000 UTC -- 2032-10-15 12:20:41.000 UTC ]
+            KeyContainerId : 3d496599-faff-4286-aee5-817a0374fb00
+               KeyProvider : Microsoft Platform Crypto Provider
+              TpmProtected : YES
+         WorkplaceTenantId : 1faf88fe-a998-4c5b-93c9-210a11d9a5c2
+       WorkplaceTenantName : University College London
+           WorkplaceMdmUrl :
+      WorkplaceSettingsUrl :
+                    NgcSet : NO
+
++----------------------------------------------------------------------+
+| IE Proxy Config for Current User                                     |
++----------------------------------------------------------------------+
+
+      Auto Detect Settings : YES
+    Auto-Configuration URL :
+         Proxy Server List :
+         Proxy Bypass List :
+
++----------------------------------------------------------------------+
+| WinHttp Default Proxy Config                                         |
++----------------------------------------------------------------------+
+
+               Access Type : DIRECT
+
++----------------------------------------------------------------------+
+| Ngc Prerequisite Check                                               |
++----------------------------------------------------------------------+
+
+            IsDeviceJoined : NO
+             IsUserAzureAD : NO
+             PolicyEnabled : NO
+          PostLogonEnabled : YES
+            DeviceEligible : YES
+        SessionIsNotRemote : YES
+            CertEnrollment : none
+              PreReqResult : WillNotProvision
+
+For more information, please visit https://www.microsoft.com/aadjerrors
+
+
+
+================
+
+https://learn.microsoft.com/en-us/office/troubleshoot/activation/tpm-malfunctioned
