@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Unix only 'groups' command
+#
+# ie: none of the AD groups
+#						Aug 2023 Bri
+
+if [ $# -eq 1 ]
+then
+	ypcat group | grep [,:]$1 | cut -d: -f1 | tr '\n' ' '
+	echo ""
+else
+	echo "Usage: $0 userid"
+fi
+
