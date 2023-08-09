@@ -1,0 +1,6 @@
+ypgroups
+
+/usr/local/rbin/ypgroups
+
+Script to provide equivalent of 'gorups' command but only return the YP memberships.
+IE: Classic Unix and not Active Directory
