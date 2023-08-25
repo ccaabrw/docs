@@ -17,4 +17,11 @@ Search PR's assigned or marked for review, for yourself or other accounts.
 
 ---
 
+Discussion on this topic with examples for searching multiple users:
+
+https://stackoverflow.com/a/61618255/7147183
+
+
+---
+
 Todo: How to do this in CLI?
