@@ -25,3 +25,14 @@ https://stackoverflow.com/a/61618255/7147183
 ---
 
 Todo: How to do this in CLI?
+
+---
+[Support ticket](https://support.github.com/ticket/2305555)
+
+Suggested command:
+
+```
+gh search prs --author @me --state open --archived=false
+```
+
+
