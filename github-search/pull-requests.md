@@ -8,8 +8,10 @@ Search PR's assigned or marked for review, for yourself or other accounts.
 | :--- | :---: |
 | ccaabrw | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Accaabrw) |
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Accaabrw) |
-| puppet-approval | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Apuppet-approval) |
+| puppet approval | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Apuppet-approval) |
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Apuppet-approval) |
+| webops maintainers | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Awebops-maintainers) |
+|         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Awebops-maintainers) |
 | Rohith  | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Armovvaucl) |
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Armovvaucl) |
 | Tony    | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Atbrooksucl) |
