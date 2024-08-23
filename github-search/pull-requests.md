@@ -12,6 +12,10 @@ Search PR's assigned or marked for review, for yourself or other accounts.
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Apuppet-approval) |
 | webops maintainers | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Awebops-maintainers) |
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Awebops-maintainers) |
+| Mike    | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Acceaood) |
+|         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Acceaood) |
+| Liam    | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Auclreilly) |
+|         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Auclreilly) |
 | Rohith  | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Armovvaucl) |
 |         | [assigned](https://github.com/pulls?q=is%3Aopen+is%3Apr+assignee%3Armovvaucl) |
 | Tony    | [review](https://github.com/pulls?q=is%3Aopen+is%3Apr+review-requested%3Atbrooksucl) |
